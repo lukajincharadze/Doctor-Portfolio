@@ -163,15 +163,18 @@ main {
   padding: 20px 0;
 }
 
-.about-title {
+/* .about-title {
   font-size: 42px;
   font-weight: normal;
   line-height: 1.2;
   margin-bottom: 40px;
   border-left: 4px solid #3182ce;
+  width: fit-content;
   padding-left: 30px;
   color: #2d3748;
-}
+  text-align: center;
+  margin: 0 auto;
+} */
 
 .about-paragraph {
   font-size: 16px;
@@ -339,10 +342,10 @@ main {
 /* Footer - FIXED */
 .footer {
   width: 100%;
-  background: linear-gradient(135deg, #0d1b2a 0%, #2c5282 50%, #0d1b2a 100%);
+  /* background: linear-gradient(135deg, #0d1b2a 0%, #2c5282 50%, #0d1b2a 100%); */
   text-align: center;
   color: #ffffff;
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 
 .footer h3 {
@@ -415,7 +418,7 @@ main {
   background: white;
   color: #333;
   padding: 40px 20px;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -542,13 +545,13 @@ main {
     text-align: center;
   }
 
-  .about-title {
+  /* .about-title {
     font-size: 36px;
     border-left: none;
     border-top: 4px solid #3182ce;
     padding-left: 0;
     padding-top: 20px;
-  }
+  } */
 
   .about-photo {
     width: 350px;
@@ -579,9 +582,9 @@ main {
     font-size: 20px;
   }
 
-  .about-title {
+  /* .about-title {
     font-size: 30px;
-  }
+  } */
 
   .about-photo {
     width: 300px;
@@ -665,9 +668,10 @@ main {
     height: 250px;
   }
 
-  .about-title {
+  /* .about-title {
     font-size: 26px;
-  }
+    text-align: center;
+  } */
 
   .about-photo {
     width: 280px;
@@ -739,4 +743,8 @@ main {
 }
 html {
   scroll-behavior: smooth;
+}
+
+a:visited {
+  color: #ffffff;         /* Visited link color */
 }

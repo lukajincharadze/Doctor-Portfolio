@@ -145,6 +145,11 @@ main {
   display: flex;
   justify-content: center;
 }
+.blog-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .about-photo {
   width: 400px;
@@ -358,7 +363,13 @@ main {
   left: 10%;
   border-radius: 50%;
 }
-
+html {
+  scroll-behavior: smooth;
+ 
+}
+#experience {
+  scroll-margin-top: 100px; /* Adjust this value as needed */
+}
 /* Footer */
 
 .footer h3 {
@@ -384,7 +395,12 @@ main {
   text-decoration: underline;
   color: #a2cbd3;
 }
-
+.Social_Icons {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .pBook {
   margin: 25px;
 }
@@ -594,4 +610,8 @@ main {
 }
 html {
   scroll-behavior: smooth;
+}
+
+a:visited {
+  color: #ffffff;         /* Visited link color */
 }
