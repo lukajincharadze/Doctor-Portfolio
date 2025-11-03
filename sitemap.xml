@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://dzhincharadze.ge/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dzhincharadze.ge/index_ge.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://dzhincharadze.ge/index.html" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Education Page -->
+  <url>
+    <loc>https://dzhincharadze.ge/education.html</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dzhincharadze.ge/education_ge.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://dzhincharadze.ge/education.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- AboSpecialization Page -->
+  <url>
+    <loc>https://dzhincharadze.ge/specialization.html</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dzhincharadze.ge/specialization_ge.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://dzhincharadze.ge/specialization.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
